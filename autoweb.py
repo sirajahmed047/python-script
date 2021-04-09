@@ -2,13 +2,9 @@
 # from openpyxl import load_workbook
 # import webbrowser
 # wb = load_workbook(filename = 'Ansible_Cloudform_doc.xlsx')
-# #workbook = xlrd.open_workbook('Ansible_Cloudform_doc.xlsx')
 # sheet = wb['Sheet1']
-# url_col= 2
 # print(sheet['B18'].value)
-# for row in range(4,42):
-#     url = sheet['B4 ,B38'].value
-#     webbrowser.open_new_tab(url)
+
 
 import xlrd, webbrowser
 
